@@ -232,7 +232,7 @@ portfolio:
       url_enable: true
       url: "https://github.com/varunchopraa/Stock-Prediction"
       title : "Stock Prediction using Machine Learning"
-      description: "The project applies Linear Regression and Support Vector Machine classifiers from scikit-learn Python library on stock data obtained using quandl Python Library."
+      description: "The project applies Linear Regression and Support Vector Machine classifiers from scikit-learn Python library on stock data obtained using quandl Python Library to predict the trend in stock prices for the next 10 days."
 
     # portfolio item loop
     - icon: "newspaper-o"

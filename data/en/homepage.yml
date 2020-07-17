@@ -225,7 +225,7 @@ portfolio:
       url_enable: true
       url: "http://chatbotanalysis.herokuapp.com"
       title : "Chatbot Log Data Analysis"
-      description: "Analysis and Segregation of user queries input to VANI chatbot deployed at NIC's National Service Desk into various buckets. Development of an interactive and dynamic dashboard to showcase the results of the analysis."
+      description: "Analysis and Segregation of user queries input to VANI chatbot deployed at NIC's National Service Desk into various buckets. Development of an interactive and dynamic dashboard to showcase the results of the analysis. Analysis done using Python, Elasticsearch and Kibana. Dashboard developed using Plotly's Dash framework."
 
     # portfolio item loop
     - icon: "line-chart"

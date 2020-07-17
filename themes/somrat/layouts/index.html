@@ -140,8 +140,7 @@
             <span></span>
           </div>
         </a>
-        <div class="mobile-menu-logo"><a href="{{.Site.BaseURL | relLangURL }}"><img class="img-fluid"
-              src="{{ .Site.Params.logo_dark | absURL }}" alt="{{ .Site.Title }}"></a>
+        <div class="mobile-menu-logo"><a href="{{.Site.BaseURL | relLangURL }}"><h3 style="color: black; vertical-align: middle;">Varun Chopra</h3></a>
         </div>
         <div class="menu-slider">
           <nav>
@@ -195,7 +194,7 @@
     {{ with $data.homepage.about }}
     <div class="row about-me-holder">
       <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
-        <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+        <div class="text-holder wow fadeInUp" data-wow-duration="1.5s"><br>
           <h1>{{ .title | safeHTML }}</h1>
           <p>{{ .content | markdownify | emojify }}</p>
           {{ if .button.enable }}
@@ -207,7 +206,7 @@
       </div>
       {{ with .image }}
       <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
-        <img class="img-fluid" src="{{ . | absURL }}" alt="about-me" style="width: 65%; display: block; margin-left: auto; margin-right: auto; vertical-align: middle;">
+        <img class="img-fluid" src="{{ . | absURL }}" alt="about-me" style="width: 55%; display: block; margin-left: auto; margin-right: auto; vertical-align: middle;">
       </div>
       {{ end }}
     </div>

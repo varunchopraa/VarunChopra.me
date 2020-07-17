@@ -28,8 +28,8 @@ hero:
 fullscreen_nav:
   enable : true
   bg_image : "images/backgrounds/full-nav-bg.jpg"
-  # first_name : "Varun"
-  last_name : "Varun Chopra"
+  first_name : "Varun Chopra"
+  # last_name : "Varun Chopra"
 
 
 ########################### About ##################################

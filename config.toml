@@ -3,7 +3,7 @@ baseURL = "/"
 title = "Varun Chopra"
 theme = "somrat"
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ["Fr"] # desable language from here
 
 ############################# Plugins ##############################
 

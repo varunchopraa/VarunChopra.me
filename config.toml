@@ -75,7 +75,7 @@ weight = 4
 logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
 # Meta data
-description = "Varun Chopra"
+description = "Varun Chopra's personal website"
 author = "Varun"
 # contact form action
 contact_form_action = "https://formspree.io/mlepozzz" # contact form works with https://formspree.io

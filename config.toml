@@ -1,0 +1,132 @@
+######################## default configuration ####################
+baseURL = "/"
+title = "Varun Chopra"
+theme = "somrat"
+# disable language
+disableLanguages = [] # desable language from here
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/fontawesome/font-awesome.min.css"
+[[params.plugins.css]]
+link = "plugins/hover/hover.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/owl-carousel/owl.carousel.min.css"
+[[params.plugins.css]]
+link = "plugins/owl-carousel/owl.theme.default.min.css"
+[[params.plugins.css]]
+link = "plugins/text-animation/text-animation.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/wow.min.js"
+[[params.plugins.js]]
+link = "plugins/text-animation/text-animation.js"
+[[params.plugins.js]]
+link = "plugins/jquery.waypoints.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/owl-carousel/owl.carousel.min.js"
+[[params.plugins.js]]
+link = "https://kit.fontawesome.com/8d552508d5.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "Home"
+URL = "#home"
+weight = 1
+
+[[menu.main]]
+name = "About Me"
+URL = "#about"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+URL = "#portfolio"
+weight = 3
+
+[[menu.main]]
+name = "Contact Me"
+URL = "#contact"
+weight = 4
+
+
+#################### default parameters ################################
+[params]
+logo_light = "images/logo.png"
+logo_dark = "images/logo-dark.png"
+# Meta data
+description = "Varun Chopra"
+author = "Varun"
+# contact form action
+contact_form_action = "https://formspree.io/mlepozzz" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+
+############################# social site ########################
+
+[[params.social]]
+icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+link = "https://github.com/varunchopraa"
+
+[[params.social]]
+icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+link = "https://www.linkedin.com/in/varun-chopra-9528a216a/"
+
+[[params.social]]
+icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+link = "https://twitter.com/varun_chopraa"
+
+[[params.social]]
+icon = "fa-instagram" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+link = "https://www.instagram.com/varun_chopraa/"
+
+[[params.social]]
+icon = "fa-youtube" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+link = "https://www.youtube.com/channel/UCXR-kCznJkPTyh6PJU6uNeg"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# copyright
+copyright = "2020 Varun Chopra"
+
+
+################################### French language #####################################
+# [Languages.fr]
+# languageName = "Fr"
+# languageCode = "fr-fr"
+# contentDir = "content/french"
+# weight = 2
+# home = "Accueil"
+# # copyright
+# copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"

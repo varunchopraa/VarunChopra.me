@@ -1,0 +1,289 @@
+########################## hero area ##########################
+hero:
+  title : "I'm Varun Chopra"
+
+  # animated text loop
+  occupations:
+    - "Student"
+    - "Developer"
+    - "Data Scientist"
+    - "Musician"
+
+  # slider background image loop
+  # slider_image:
+  #   - "images/slider/slider-1.jpg"
+  #   - "images/slider/slider-2.jpg"
+  #   - "images/slider/slider-3.jpg"
+
+  image: "images/backgrounds/portrait_back.jpg"
+
+  # # button
+  # button:
+  #   enable : true
+  #   label : "HIRE ME"
+  #   link : "#contact"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/backgrounds/full-nav-bg.jpg"
+  # first_name : "Varun"
+  last_name : "Varun Chopra"
+
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/portrait.jpg"
+  title : "ABOUT ME"
+  content : "I'm Varun Chopra, an aspiring programmer with an ever-increasing eagerness to learn. I'm currently pursuing my Bachelors in Computer Science and Engineering from Bharati Vidyapeeth's College of Engineering, New Delhi."
+  # button
+  button:
+    enable : true
+    label : "DOWNLOAD CV"
+    link : "Varun's CV.pdf" # you can put your cv in static folder and give the path here.
+
+########################### Education ##################################
+
+education:
+  enable : true
+  title : "EDUCATION"
+  education_list:
+    # experience item loop
+    - name : "B.Tech. (Computer Science and Engineering)"
+      company : "Bharati Vidyapeeth's College of Engineering, New Delhi"
+      duration : "2017-Present"
+      content : "CGPA: 8.978 (Upto 5th Sem)"
+
+    # experience item loop
+    - name : "Senior Secondary School"
+      company : "Montfort School, New Delhi"
+      duration : "2015-2017"
+      content : "Percentage: 94.6% (AISSCE)"
+
+    # experience item loop
+    - name : "Secondary School"
+      company : "Montfort School, New Delhi"
+      duration : "2013-2015"
+      content : "CGPA: 10.0 (AISSE)"
+
+
+###########################3 Experience ##############################
+experience:
+  enable : true
+  title : "WORK EXPERIENCE"
+  experience_list:
+    # experience item loop
+    - name : "SQA Engineer Intern/Apprentice"
+      company : "IHS Markit Ltd (Gurgaon, India)"
+      duration : "June-July 2020"
+      content : "UI improvements on an existing Google Chrome extension for automatic extraction of web element xpaths from a web page,
+Automating validation of login credentials and password change in case of invalid credentials using Java and Selenium,
+Analysis of VIN data to identify frequently occurring issues and to suggest ways to identify them before they occur, 
+Organising interactive fun events for the entire intern cohort."
+
+    # experience item loop
+    - name : "Data Analytics Intern"
+      company : "National Informatics Centre, MeitY (Delhi, India)"
+      duration : "May-June 2020"
+      content : "Extraction and analysis of log data for VANI chatbot deployed on NIC’s National Service Desk to segregate the logs into different categories using Python,
+Development of an interactive and dynamic graphical dashboard to showcase the results of the analysis, 
+Generalisation of extraction and analysis process for the 18 other chatbots hosted by NIC."
+
+    # experience item loop
+    - name : "Summer Intern"
+      company : "National Informatics Centre, MeitY (Delhi, India)"
+      duration : "June-July 2019"
+      content : "Developed Matra, an indic phonetic typing API and tool for
+transliteration from English to 10 Indian languages,
+Currently deployed on NIC's internal servers and being developed
+further by the Artificial Intelligence Resource Division."
+
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "SKILLS"
+  skill_list:
+    # skill item loop
+    - name : "Python"
+      parcentage : "90%"
+
+    # skill item loop
+    - name : "C/C++"
+      parcentage : "90%"
+
+    # skill item loop
+    - name : "Java"
+      parcentage : "80%"
+
+    # skill item loop
+    - name : "HTML"
+      parcentage : "90%"
+
+    # skill item loop
+    - name : "CSS"
+      parcentage : "80%"
+
+    # skill item loop
+    - name : "JavaScript"
+      parcentage : "85%"
+
+    # skill item loop
+    - name : "Flask"
+      parcentage : "65%"
+
+    # skill item loop
+    - name : "CherryPy"
+      parcentage : "80%"
+
+    # skill item loop
+    - name : "Machine/Deep Learning"
+      parcentage : "70%"
+
+    # skill item loop
+    - name : "MySQL"
+      parcentage : "90%"
+
+    # skill item loop
+    - name : "Tableau"
+      parcentage : "80%"
+
+    # skill item loop
+    - name : "Power BI"
+      parcentage : "70%"
+
+    # skill item loop
+    - name : "Elasticsearch/Kibana"
+      parcentage : "65%"
+
+    # skill item loop
+    - name : "Selenium"
+      parcentage : "70%"
+
+ 
+
+
+################################### Service ##############################3
+service:
+  enable : false
+  title : "SERVICES"
+  service_list:
+    # service item loop
+    - name : "Web Development"
+      image : "images/icons/web-development.png"
+
+    # service item loop
+    - name : "Graphic Design"
+      image : "images/icons/graphic-design.png"
+
+    # service item loop
+    - name : "Database Management"
+      image : "images/icons/dbms.png"
+
+    # service item loop
+    - name : "Software Development"
+      image : "images/icons/software-development.png"
+
+    # service item loop
+    - name : "Digital Marketing"
+      image : "images/icons/marketing.png"
+
+    # service item loop
+    - name : "Mobile App Development"
+      image : "images/icons/mobile-app.png"
+
+
+############################## call to action #########################
+call_to_action:
+  enable : false
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "NEED A SERVICE?"
+  button:
+    enable : true
+    label : "SAY HELLO!"
+    link : "#contact"
+
+
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "PROJECTS"
+  services:
+    # portfolio item loop
+    - icon: "music"
+      title : "Music Genre Classification using Deep Neural Networks"
+      description: "The project employs audio data augmentation techniques to significantly improve data quality. After extraction of audio features, comparison of different classifiers was performed and test accuracy of 98.2% achieved on the proposed DNN developed using Keras and Python."
+
+    # portfolio item loop
+    - icon: "line-chart"
+      title : "Stock Prediction using Machine Learning"
+      description: "The project applies Linear Regression and Support Vector Machine classifiers from scikit-learn Python library on stock data obtained using quandl Python Library."
+
+    # portfolio item loop
+    - icon: "newspaper-o"
+      title : "Fake News Detection using Deep Learning and Machine Learning"
+      description: "The project classifies textual, image and text on image data into fake or genuine news categories. LSTM is used for text classification with a test accuracy of 93.4%. For image classification, CNN and ELA are used with a test accuracy of 91.83%. For classifying textual data in images, Tesseract is used for OCR and the recognised text is fed into the LSTM model used for text classification. Developed using Python."
+
+    # portfolio item loop
+    - icon: "futbol"
+      title : "Sports Club Management System"
+      description: "A management system for a sports club developed in C++ to maintain the record of members, their fee payments and their sport scores."
+
+################################# Testimonial #########################33
+testimonial:
+  enable : false
+  title : "TESTIMONIALS"
+  testimonial_slider:
+    # slider item loop
+    - name : "Micheal Clark"
+      image : "images/clients/client1.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+
+    # slider item loop
+    - name : "Peter Parker"
+      image : "images/clients/client2.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+
+    # slider item loop
+    - name : "Jessica Jones"
+      image : "images/clients/client3.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+
+
+######################### funfacts #############################3
+funfacts:
+  enable : false
+  funfacts_list:
+    # funfacts item loop
+    - name : "HANDS TO WORK"
+      image : "images/icons/works.png"
+      count : "100"
+
+    # funfacts item loop
+    - name : "HAPPY CLIENT"
+      image : "images/icons/happy.png"
+      count : "200"
+
+    # funfacts item loop
+    - name : "FINISHED PROJECT"
+      image : "images/icons/project.png"
+      count : "250"
+
+    # funfacts item loop
+    - name : "CUPS OF COFFEE"
+      image : "images/icons/coffee.png"
+      count : "150"
+
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "CONTACT ME"

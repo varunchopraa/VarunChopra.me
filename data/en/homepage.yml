@@ -159,8 +159,12 @@ skill:
       parcentage : "65%"
 
     # skill item loop
+    - name : "Google Cloud Platform"
+      parcentage : "60%"
+
+    # skill item loop
     - name : "Selenium"
-      parcentage : "70%"
+      parcentage : "80%"
 
  
 
@@ -217,14 +221,32 @@ portfolio:
       description: "The project employs audio data augmentation techniques to significantly improve data quality. After extraction of audio features, comparison of different classifiers was performed and test accuracy of 98.2% achieved on the proposed DNN developed using Keras and Python."
 
     # portfolio item loop
+    - icon: "comments"
+      url_enable: true
+      url: "http://chatbotanalysis.herokuapp.com"
+      title : "Chatbot Log Data Analysis"
+      description: "Analysis and Segregation of user queries input to VANI chatbot deployed at NIC's National Service Desk into various buckets. Development of an interactive and dynamic dashboard to showcase the results of the analysis."
+
+    # portfolio item loop
     - icon: "line-chart"
+      url_enable: true
+      url: "https://github.com/varunchopraa/Stock-Prediction"
       title : "Stock Prediction using Machine Learning"
       description: "The project applies Linear Regression and Support Vector Machine classifiers from scikit-learn Python library on stock data obtained using quandl Python Library."
 
     # portfolio item loop
     - icon: "newspaper-o"
+      url_enable: true
+      url: "https://github.com/varunchopraa/Afwah-Fake-News-Detection"
       title : "Fake News Detection using Deep Learning and Machine Learning"
-      description: "The project classifies textual, image and text on image data into fake or genuine news categories. LSTM is used for text classification with a test accuracy of 93.4%. For image classification, CNN and ELA are used with a test accuracy of 91.83%. For classifying textual data in images, Tesseract is used for OCR and the recognised text is fed into the LSTM model used for text classification. Developed using Python."
+      description: "The project classifies textual, image and text on image data into fake or genuine news categories. LSTM is used for text classification with a test accuracy of 93.4%. For image classification, CNN and ELA are used with a test accuracy of 91.83%. For classifying textual data in images, Tesseract is used for OCR and the recognised text is fed into the LSTM model used for text classification. Developed using Python and CherryPy."
+
+    # portfolio item loop
+    - icon: "language"
+      url_enable: true
+      url: "https://github.com/varunchopraa/matra"
+      title : "Matra"
+      description: "A phonetic typing API and tool for transliteration from English to 10 Indian languages in real time. Developed using Python, CherryPy, HTML/CSS/JavaScript and jQuery."
 
     # portfolio item loop
     - icon: "futbol"

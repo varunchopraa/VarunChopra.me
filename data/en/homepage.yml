@@ -54,7 +54,7 @@ education:
     - name : "B.Tech. (Computer Science and Engineering)"
       company : "Bharati Vidyapeeth's College of Engineering, New Delhi"
       duration : "2017-Present"
-      content : "CGPA: 8.978 (Upto 5th Sem)"
+      content : "CGPA: 8.97 (Upto 6th Sem)"
 
     # experience item loop
     - name : "Senior Secondary School"

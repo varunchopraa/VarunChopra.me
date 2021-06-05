@@ -264,7 +264,7 @@ portfolio2:
       url_enable: true
       url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3842651"
       title : "A survey of various wavelet-based image retrieval techniques and tuning of hyperparameters"
-      description: "In this study, different wavelet-based Content Based Image Retrieval (CBIR) techniques have been surveyed. The advantages and disadvantages of employing these techniques have also been discussed. A few methodologies that stood out have been implemented and their performance on the same dataset (Corel-1k) compared. The performance metrics used for comparison are precision and recall, which see a significant improvement after hyperparameter tuning of the classifier. The precision score improves from 67.96% to 93%."
+      description: "Abstract – In this study, different wavelet-based Content Based Image Retrieval (CBIR) techniques have been surveyed. The advantages and disadvantages of employing these techniques have also been discussed. A few methodologies that stood out have been implemented and their performance on the same dataset (Corel-1k) compared. The performance metrics used for comparison are precision and recall, which see a significant improvement after hyperparameter tuning of the classifier. The precision score improves from 67.96% to 93%."
 
 
 ################################# Testimonial ###########################

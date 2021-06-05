@@ -253,10 +253,24 @@ portfolio:
       title : "Sports Club Management System"
       description: "A management system for a sports club developed in C++ to maintain the record of members, their fee payments and their sport scores."
 
-################################# Testimonial #########################33
+
+################################# Publications ###########################
+portfolio2:
+  enable : true
+  title : "PUBLICATIONS"
+  services:
+    # portfolio item loop
+    - icon: "picture-o"
+      url_enable: true
+      url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3842651"
+      title : "A survey of various wavelet-based image retrieval techniques and tuning of hyperparameters"
+      description: "In this study, different wavelet-based Content Based Image Retrieval (CBIR) techniques have been surveyed. The advantages and disadvantages of employing these techniques have also been discussed. A few methodologies that stood out have been implemented and their performance on the same dataset (Corel-1k) compared. The performance metrics used for comparison are precision and recall, which see a significant improvement after hyperparameter tuning of the classifier. The precision score improves from 67.96% to 93%."
+
+
+################################# Testimonial ###########################
 testimonial:
   enable : false
-  title : "TESTIMONIALS"
+  title : "PUBLICATIONS"
   testimonial_slider:
     # slider item loop
     - name : "Micheal Clark"
